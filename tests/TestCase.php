@@ -2,9 +2,9 @@
 
 namespace Bnzo\PackageSkeleton\Tests;
 
+use Bnzo\PackageSkeleton\PackageSkeletonServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bnzo\PackageSkeleton\PackageSkeletonServiceProvider;
 
 class TestCase extends Orchestra
 {

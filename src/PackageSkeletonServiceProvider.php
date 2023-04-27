@@ -2,9 +2,9 @@
 
 namespace Bnzo\PackageSkeleton;
 
+use Bnzo\PackageSkeleton\Commands\PackageSkeletonCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bnzo\PackageSkeleton\Commands\PackageSkeletonCommand;
 
 class PackageSkeletonServiceProvider extends PackageServiceProvider
 {
