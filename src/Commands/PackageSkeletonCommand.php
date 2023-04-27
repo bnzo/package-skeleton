@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Bnzo\PackageSkeleton\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PackageSkeletonCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'package-skeleton';
 
     public $description = 'My command';
 

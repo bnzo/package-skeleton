@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "bnzo/package-package-skeleton",
+    "description": "This is my package package-skeleton",
     "keywords": [
-        ":vendor_name",
+        "bnzo",
         "laravel",
-        ":package_slug"
+        "package-package-skeleton"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bnzo/package-package-skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "bnzo",
+            "email": "17174973+bnzo@users.noreply.github.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Bnzo\\PackageSkeleton\\": "src/",
+            "Bnzo\\PackageSkeleton\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Bnzo\\PackageSkeleton\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Bnzo\\PackageSkeleton\\PackageSkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PackageSkeleton": "Bnzo\\PackageSkeleton\\Facades\\PackageSkeleton"
             }
         }
     },
